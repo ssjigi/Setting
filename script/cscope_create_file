@@ -1,0 +1,24 @@
+#!/bin/bash
+\rm -rf  cscope.files cscope.out
+
+echo "find $1 *.c *.h *.cpp *.java Makefile* *.mk"
+echo "Making tempfile....."
+find $1 \( -name "*.[ch]" \
+		 -o -name "*.cpp" \
+		 -o -name "*.cc" \
+		 -o -name "*.hh" \
+		 -o -name "*.java" \
+		 -o -name "*.xml" \
+		 -o -name "Makefile.*" \
+		 -o -name "Makefile" \
+		 -o -name "*config*" \
+		 -o -name "*.mk" \) \
+		 -print >> temp.files
+
+cat temp.files | grep -v ".svn" | grep -v "./out" >> cscope.files
+
+rm temp.files
+ 
+ctags -L cscope.files &
+cscope -I cscope.files
+

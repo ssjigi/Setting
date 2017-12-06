@@ -1,0 +1,4 @@
+#!/bin/bash
+#export CTAGS_PATH=`pwd`
+#echo "export CTAGS_PATH="$CTAGS_PATH
+export ohtong="ohtong"

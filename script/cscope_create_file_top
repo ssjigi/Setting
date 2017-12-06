@@ -1,0 +1,38 @@
+#!/bin/bash
+\rm -rf  cscope.files cscope.out
+
+FINDDIR="./device \n./vendor \n./frameworks \n./packages\n./external\n./bootable\n./build\n./system"
+echo -e $FINDDIR > test_dir
+echo "Making tempfile....."
+
+while read line
+do 
+	if [ ! $line ]
+	then
+		break
+	fi
+	echo "find $line *.c *.h *.cpp *.java Makefile* *.mk"
+	find $line \
+		 \( \( \
+		    -name "*.[ch]" \
+		 -o -name "*.cpp" \
+		 -o -name "*.cc" \
+		 -o -name "*.hh" \
+		 -o -name "*.java" \
+		 -o -name "*.xml" \
+		 -o -name "Makefile.*" \
+		 -o -name "Makefile" \
+		 -o -name "*.mk" \) \
+		 -and \( -not -type l \) \
+		 \) \
+		 -print >> temp.files
+
+done < test_dir
+
+cat temp.files | grep -v ".svn" | grep -v "./out" >> cscope.files
+rm temp.files
+
+rm test_dir
+ 
+cscope -I cscope.files
+
