@@ -1,0 +1,8 @@
+pane	0	1	:bash	1	:*	1	:/home/hyowon25.kim	0	bash	:
+pane	0	1	:bash	1	:*	2	:/home/hyowon25.kim	0	bash	:
+pane	0	1	:bash	1	:*	3	:/home/hyowon25.kim	0	bash	:
+pane	0	1	:bash	1	:*	4	:/home/hyowon25.kim	0	bash	:
+pane	0	1	:bash	1	:*	5	:/home/hyowon25.kim	0	bash	:
+pane	0	1	:bash	1	:*	6	:/home/hyowon25.kim	1	bash	:
+window	0	1	1	:*	c3fb,421x92,0,0{139x92,0,0[139x46,0,0,3,139x45,0,47,8],139x92,140,0[139x46,140,0,6,139x45,140,47,9],141x92,280,0[141x46,280,0,7,141x45,280,47,10]}
+state	0	

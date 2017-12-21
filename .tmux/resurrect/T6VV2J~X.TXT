@@ -1,0 +1,4 @@
+pane	0	1	:bash	1	:*	1	:/home/hyowon25.kim	0	vim	:vim .vimrc
+pane	0	1	:bash	1	:*	2	:/home/hyowon25.kim	1	bash	:
+window	0	1	1	:*	65b5,234x65,0,0{97x65,0,0,1,136x65,98,0,2}
+state	0	0

@@ -1,0 +1,18 @@
+pane	0	1	:bash	1	:*	1	:/home/hyowon25.kim/work/tvg2a/m-tv-release-sprint-smt-user-B17-1/out/target/product/tvg2a	1	bash	:
+pane	0	1	:bash	1	:*	2	:/home/hyowon25.kim/work/tvg2a/m-tv-release-sprint.remmc.2017.06.15-B17-1/out/target/product/tvg2a	0	bash	:
+pane	0	2	:bash	0	:-	1	:/home/hyowon25.kim/SVN_REPO/B17_1_RS/tvg2a	1	bash	:
+pane	0	2	:bash	0	:-	2	:/home/hyowon25.kim/SVN_REPO/B17_1_RS/woofer2	0	bash	:
+pane	0	2	:bash	0	:-	3	:/home/hyowon25.kim	0	bash	:
+pane	0	2	:bash	0	:-	4	:/home/hyowon25.kim/SVN_REPO/B17_2/tvg2a	0	bash	:
+pane	0	2	:bash	0	:-	5	:/home/hyowon25.kim/work/tvG1/gtv-4.0-aosp-jb-mr1-rc4-16.4	0	bash	:/bin/bash /home/hyowon25.kim/local/bin/build.sh
+pane	0	2	:bash	0	:-	6	:/home/hyowon25.kim	0	bash	:
+pane	0	3	:bash	0	:	1	:/home/hyowon25.kim	0	bash	:
+pane	0	3	:bash	0	:	2	:/home/hyowon25.kim	0	bash	:
+pane	0	3	:bash	0	:	3	:/home/hyowon25.kim	0	bash	:
+pane	0	3	:bash	0	:	4	:/home/hyowon25.kim/.tmux/resurrect	0	bash	:
+pane	0	3	:bash	0	:	5	:/home/hyowon25.kim	0	bash	:
+pane	0	3	:bash	0	:	6	:/home/hyowon25.kim	1	bash	:
+window	0	1	1	:*	084c,421x92,0,0[421x92,0,0{210x92,0,0,15,210x92,211,0,17}]
+window	0	2	0	:-	a0a3,421x92,0,0[423x46,0,0{140x46,0,0,37,140x46,141,0,41,141x46,282,0,42},423x46,0,47{140x46,0,47,38,140x46,141,47,39,141x46,282,47,40}]
+window	0	3	0	:	97ab,419x91,0,0[421x45,0,0{139x45,0,0,51,139x45,140,0,59,141x45,280,0,54},421x46,0,46{139x46,0,46,58,139x46,140,46,55,141x46,280,46,57}]
+state	0	

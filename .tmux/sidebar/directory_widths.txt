@@ -1,0 +1,7 @@
+/home/hyowon25.kim	76
+/home/hyowon25.kim/work/tvG2/android-tv-teedev	76
+/home/hyowon25.kim/work/tvG2/android-tv-teedev	76
+/home/hyowon25.kim/work/tvG2/android-tv-teedev/vendor/lg/tvg2	86
+/home/hyowon25.kim/work/tvG2/android-tv-teedev/vendor/lg/tvg2/lge-stbapp	53
+/home/hyowon25.kim/work/tvG2/android-tv-teedev/vendor/lg/tvg2/lge-stbapp	193
+/home/hyowon25.kim/work/tvG2/android-tv-teedev/vendor/lg/tvg2/lge-stbapp	193

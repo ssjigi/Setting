@@ -1,0 +1,4 @@
+pane	0	1	:bash	1	:*	1	:/home/hyowon25.kim	0	vim	:vim .vimrc
+pane	0	1	:bash	1	:*	2	:/home/hyowon25.kim	1	vim	:vim .tmux.conf
+window	0	1	1	:*	c098,234x65,0,0{117x65,0,0,1,116x65,118,0,3}
+state	0	0

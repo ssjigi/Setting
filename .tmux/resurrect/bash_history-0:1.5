@@ -1,0 +1,1000 @@
+#1492827580
+os
+#1492827583
+go lg
+#1492827584
+vi smartbox.mk 
+#1492827593
+svndiff smartbox.mk 
+#1492827596
+svn ci smartbox.mk 
+#1492834517
+svn up
+#1492834520
+cd prebuilt/ch/
+#1492834522
+svn log
+#1492834527
+svn log| more
+#1492834582
+go out
+#1492834585
+cd system/app/
+#1492834585
+ls
+#1492834590
+ls -al FamilyChannel.apk 
+#1492836383
+go lg
+#1492836385
+vi smartbox.mk 
+#1492836401
+cd prebuilt/ch/
+#1492836402
+ls
+#1492836404
+cd apk/
+#1492836405
+ls
+#1492836406
+vi Android.mk
+#1492836427
+ls
+#1492838784
+diff FamilyChannel.apk ~/test/FamilyChannel.apk 
+#1492839660
+go out
+#1492839660
+ls
+#1492839675
+mv smartbox-ota-20170422_V.04.04.1014.zip smartbox-ota-20170422_V.04.04.1014-user.zip 
+#1492839676
+ls
+#1492839679
+cp smartbox-ota-20170422_V.04.04.1014-user.zip ~/trans
+#1492842946
+os
+#1492842950
+go stb
+#1492842966
+ud
+#1492842999
+mm -B
+#1492843051
+mm
+#1492843065
+svnst
+#1492843066
+svndiff
+#1492843091
+go lg
+#1492843092
+svn up
+#1492843135
+svnst
+#1492843137
+svndiff
+#1492843143
+svnst
+#1492843148
+svn ci lge-stbapp/config.mk 
+#1492843446
+os
+#1492843449
+go lg
+#1492843451
+cd prebuilt/
+#1492843452
+cd pineone/
+#1492843457
+mc
+#1492844045
+go lg
+#1492844046
+svn up
+#1492844056
+go top
+#1492844058
+source build/envsetup.sh 
+#1492844061
+lunch smartbox-user
+#1492844068
+os
+#1492844074
+clear
+#1492819506
+svn -version
+#1492819515
+svn --version
+#1492822985
+os
+#1492822993
+rm -rf out
+#1492826045
+os
+#1492826049
+ls
+#1492826051
+cd ..
+#1492826052
+ls
+#1492826053
+rm -rf gtv-4.0-aosp-jb-mr1-rc4/
+#1492826097
+mv gtv-4.0-aosp-jb-mr1-rc4 gtv-4.0-aosp-jb-mr1-rc4-del
+#1492826099
+rm -rf gtv-4.0-aosp-jb-mr1-rc4-del/
+#1492827295
+os
+#1492827299
+os
+#1492827307
+go lg
+#1492827308
+ls
+#1492827310
+go top
+#1492827334
+source build/envsetup.sh 
+#1492827337
+cd ..
+#1492827337
+ls
+#1492827349
+mv gtv-4.0-aosp-jb-mr1-rc4 gtv-4.0-aosp-jb-mr1-rc4-G16-4-user
+#1492827350
+os
+#1492827354
+source build/envsetup.sh 
+#1492827359
+lunch smartbox-user
+#1492827377
+sh vendor/lg/smartbox/overlays/apply_lg_patches.sh 
+#1492827478
+ake clean && make clean_linux && make linux_all && make amp_core && make mv88de3100_sdk && make -j8 && make image -j8 && make otapackage -j8
+#1492827489
+make linux_all && make amp_core && make mv88de3100_sdk && make -j8 && make image -j8 && make otapackage -j8
+#1492827504
+vi build/core/main.mk 
+#1492827517
+make linux_all && make amp_core && make mv88de3100_sdk && make -j8 && make image -j8 && make otapackage -j8
+#1492827611
+make linux_all && make amp_core && make mv88de3100_sdk && make -j8 && make image -j8 && make otapackage -j8
+#1492834604
+source build/envsetup.sh 
+#1492834608
+lunch smartbox-user
+#1492834623
+sh vendor/lg/smartbox/overlays/apply_lg_patches.sh 
+#1492834650
+make clean && make linux_all && make amp_core && make mv88de3100_sdk && make -j8 && make image -j8 && make otapackage -j8
+#1492843399
+go lg
+#1492843402
+cd prebuilt/
+#1492843403
+svnst
+#1492843408
+cd pineone/
+#1492843408
+ls
+#1492843410
+cd apk/
+#1492843411
+svnst
+#1492843414
+ll
+#1492843442
+vf ..
+#1492843444
+cd ..
+#1492843626
+cd ..
+#1492843626
+svnst
+#1492843634
+svn revert pineone/apk/SmartUX_LiveWidget.apk
+#1492843686
+svnst
+#1492843697
+ls
+#1492843698
+cd pineone/
+#1492843699
+ls
+#1492843700
+cd bin/
+#1492843701
+ls
+#1492843731
+svnst
+#1492843733
+cd ..
+#1492843734
+svnst
+#1492843735
+svn st
+#1492843778
+go lg
+#1492843779
+svnst
+#1492843784
+svn ci prebuilt/
+#1492844017
+svn up
+#1492844021
+svnst
+#1492844033
+cd prebuilt/lg/lib/modules/
+#1492844033
+ls
+#1492844036
+rm af_turbo.ko 
+#1492844037
+svnst
+#1492844038
+svn st
+#1492844040
+svn up
+#1492757316
+cd
+#1492757317
+cd test/
+#1492757319
+cd subversion\ local\ install/
+#1492757319
+ls
+#1492757515
+cat guide.txt 
+#1492757531
+cat build.sh 
+#1492757537
+vi build.sh 
+#1492758510
+cd ..
+#1492758510
+ls
+#1492758621
+cd subversion_local_install/
+#1492758622
+cat build.sh 
+#1492758742
+cd
+#1492758744
+cd local/bin/
+#1492758744
+ls
+#1492758746
+ll
+#1492759543
+cd
+#1492759544
+clear
+#1492759546
+os
+#1492818430
+os
+#1492818436
+df
+#1492818445
+cat ../using_disk 
+#1492818470
+ls
+#1492818474
+rm drm_erom_otp.bin 
+#1492818474
+ls
+#1492818477
+rm -rf tvg2a-ota-userdebug-20170418_V.03.11.0085.zip 
+#1492818477
+ls
+#1492818487
+ll
+#1492818488
+rm share
+#1492818489
+ls
+#1492818494
+os
+#1492818498
+ls
+#1492818499
+cd ..
+#1492818499
+ls
+#1492818501
+rm -rf misc/
+#1492818504
+ls
+#1492818515
+pvtarx ~/FOR_BUILD/recent-version-sdk 
+#1492818517
+pvtarx ~/FOR_BUILD/recent-version-sdk .
+#1492818851
+os
+#1492818854
+cd ..
+#1492818854
+ls
+#1492818870
+mv m-tv-release-sprint tvg2a/m-tv-release-sprint-K17-1-DVT-user
+#1492818881
+mv m-tv-release-sprint tvg2a/m-tv-release-sprint-K17-1-DVT-user
+#1492818891
+mv m-tv-release-sprint m-tv-release-sprint-K17-1-DVT-user
+#1492818892
+ls
+#1492818894
+os
+#1492818899
+source build/envsetup.sh 
+#1492818903
+lunch tvg2a-user
+#1492818916
+sh device/lge/tvg2a/overlays/apply_lg_patches.sh 
+#1492818956
+build_only_user.sh 
+#1492823011
+build.sh 
+#1492823022
+build_only_user.sh 
+#1492842902
+os
+#1492842907
+go lg
+#1492842911
+vi tvg2a.mk 
+#1492821201
+ls -al libz*
+#1492825041
+os
+#1492825044
+go out
+#1492825045
+ls
+#1492825052
+vi root/default.prop 
+#1492825062
+cd root/
+#1492825063
+s
+#1492825063
+ls
+#1492825065
+cd ..
+#1492825066
+cd system/
+#1492825067
+s
+#1492825069
+ls
+#1492826059
+cd /home/sdk/
+#1492826059
+ls
+#1492826063
+cdv4
+#1492826063
+ls
+#1492826064
+cd v4
+#1492826065
+ls
+#1492826068
+cd ti320/
+#1492826068
+ls
+#1492826101
+tar -xzf gtv-4.0-aosp-jb-mr1-rc4.tgz -C ~/work/tvG1/
+#1492827037
+os
+#1492827041
+go lg
+#1492827042
+ls
+#1492827111
+ls
+#1492827112
+cd prebuilt/
+#1492827112
+ls
+#1492827114
+cd pineone/
+#1492827114
+ls
+#1492827116
+cd apk/
+#1492827116
+ls
+#1492827123
+cd ..
+#1492827127
+ls
+#1492827128
+cd ..
+#1492827128
+ls
+#1492827149
+find . -name Family*
+#1492827152
+cd ch/apk/
+#1492827153
+ls
+#1492827159
+cp ~/trans/FamilyChannel_tvG1_V1.1.14_20170421-release.apk .
+#1492827159
+ls
+#1492827161
+ls -al
+#1492827207
+mv FamilyChannel_tvG1_V1.1.14_20170421-release.apk FamilyChannel.apk
+#1492827208
+svnst
+#1492827214
+svn ci FamilyChannel.apk 
+#1492827659
+os
+#1492827662
+go out
+#1492827662
+ls
+#1492827664
+ll
+#1492827671
+vi system/def
+#1492827675
+vi system/build.prop 
+#1492827744
+ll
+#1492827747
+ls -al tvg2a-ota-user-20170422_V.03.11.0087.zip 
+#1492827747
+ls -al tvg2a-ota-user-20170422_V.03.11.0087.zip 
+#1492827748
+ls -al tvg2a-ota-user-20170422_V.03.11.0087.zip 
+#1492827748
+ls -al tvg2a-ota-user-20170422_V.03.11.0087.zip 
+#1492827749
+ls -al tvg2a-ota-user-20170422_V.03.11.0087.zip 
+#1492827750
+ls -al tvg2a-ota-user-20170422_V.03.11.0087.zip 
+#1492827750
+ls -al tvg2a-ota-user-20170422_V.03.11.0087.zip 
+#1492827750
+ls -al tvg2a-ota-user-20170422_V.03.11.0087.zip 
+#1492827756
+ls -al tvg2a-ota-user-20170422_V.03.11.0087.zip 
+#1492827758
+ls -al tvg2a-ota-user-20170422_V.03.11.0087.zip 
+#1492827759
+ls -al tvg2a-ota-user-20170422_V.03.11.0087.zip 
+#1492827760
+ls -al tvg2a-ota-user-20170422_V.03.11.0087.zip 
+#1492827761
+ls -al tvg2a-ota-user-20170422_V.03.11.0087.zip 
+#1492827762
+ls -al tvg2a-ota-user-20170422_V.03.11.0087.zip 
+#1492827763
+ls -al tvg2a-ota-user-20170422_V.03.11.0087.zip 
+#1492827763
+ls -al tvg2a-ota-user-20170422_V.03.11.0087.zip 
+#1492827763
+ls -al tvg2a-ota-user-20170422_V.03.11.0087.zip 
+#1492827764
+ls -al tvg2a-ota-user-20170422_V.03.11.0087.zip 
+#1492827780
+ls
+#1492827783
+cp tvg2a-ota-user-20170422_V.03.11.0087.zip ~/trans/
+#1492842916
+os
+#1492842920
+go stb
+#1492842920
+ls
+#1492842923
+vi config.mk 
+#1492843189
+svnst
+#1492843191
+go lg
+#1492843192
+svnst
+#1492843195
+svn info
+#1492826105
+os
+#1492826109
+ls
+#1492826995
+go lg
+#1492826996
+os
+#1492827000
+go lg
+#1492827000
+ls
+#1492827002
+cd vendor/lg
+#1492827002
+ls
+#1492827007
+cd vendor/
+#1492827007
+ls
+#1492827033
+svn co -q http://var.lge.com/media/svn/SmartBox/branches/TI320-DU-V4_16-3/vendor/lg
+#1492827457
+cd
+#1492827460
+cd local/bin/
+#1492827464
+cat build_only_user.sh 
+#1492834402
+os
+#1492834405
+go lg
+#1492834406
+ls
+#1492834407
+svnst
+#1492834411
+svn up
+#1492834423
+cd prebuilt/ch/
+#1492834423
+ls
+#1492834424
+cd apk/
+#1492834425
+ls
+#1492834433
+cp FamilyChannel.apk ~/test/
+#1492834435
+go out
+#1492834443
+find . -name FamilyChannel.apk
+#1492834455
+diff ./system/app/FamilyChannel.apk ~/test/FamilyChannel.apk 
+#1492834483
+diff ./obj/APPS/FamilyChannel_intermediates/FamilyChannel.apk /home/hyowon25.kim/test/FamilyChannel.apk
+#1492834498
+find . -name FamilyChannel.apk | xargs ls -al
+#1492835433
+os
+#1492835436
+ls
+#1492835437
+cd
+#1492835438
+cd test/
+#1492835439
+ls
+#1492835441
+cd ..
+#1492835441
+ls
+#1492835442
+cd trans
+#1492835443
+ls
+#1492835445
+os
+#1492835448
+go mvsdk
+#1492835451
+cd MV88DE3100_SDK/MV88DE3100_Tools/SecureEngine/
+#1492835451
+ls
+#1492835452
+cd BCM/
+#1492835453
+ls
+#1492835454
+cd bg4ct/
+#1492835455
+ls
+#1492835456
+cd m
+#1492835457
+cd mid0x7/
+#1492835458
+ls
+#1492835459
+ls -al
+#1492836437
+os
+#1492836440
+go out
+#1492836442
+cd system/app
+#1492836443
+ls
+#1492836739
+cd /share/
+#1492836739
+ls
+#1492836743
+cp woofer2-ota-userdebug-20170422_V.03.71.0125.zip ~/
+#1492836767
+cd
+#1492836768
+ls
+#1492837055
+mv woofer2-ota-userdebug-20170422_V.03.71.0125.zip trans
+#1492838413
+vi .tmux.conf 
+#1492838761
+os
+#1492838764
+go out
+#1492838767
+cd system/app/
+#1492838767
+ls
+#1492838775
+cp FamilyChannel.apk ~/test/
+#1492842954
+os
+#1492842956
+go out
+#1492842961
+vi system/build.prop 
+#1492842970
+go lg
+#1492842972
+go stb
+#1492842973
+csd
+#1492842974
+csr
+#1492843467
+go lg
+#1492843468
+cd
+#1492843470
+cd local/bin/
+#1492843470
+ls
+#1492843492
+cd
+#1492843493
+cd test/
+#1492843493
+ls
+#1492843500
+tar -xf mc-4.8.17.tar.bz2 
+#1492843502
+cd mc-4.8.17/
+#1492843502
+ls
+#1492843513
+./configure --prefix=$HOME/local
+#1492834505
+cd test/
+#1492834506
+s
+#1492834508
+ls -al
+#1492834559
+cd ..
+#1492834560
+cd trans
+#1492834561
+ls
+#1492834562
+l s-al
+#1492834564
+ls -al
+#1492837019
+tmad
+#1492838479
+tmad
+#1492844083
+tmux
+#1492844086
+os
+#1492844091
+source build/envsetup.sh 
+#1492844093
+lunch smartbox-user
+#1492844099
+make otapackage -j9
+#1492844101
+make otapackage -j8
+#1492845100
+make linux_all
+#1492845335
+make otapackage -j8
+#1492846365
+make otapackage -j8
+#1492847100
+hist
+#1492847104
+history 
+#1492847144
+source build/envsetup.sh 
+#1492847147
+lunch smartbox-user
+#1492847168
+make clean && make linux_all && make amp_core && make mv88de3100_sdk && make -j8 && make otapackage -j8
+#1492844681
+tmad
+#1492990735
+ls
+#1492990737
+cd FOR_BUILD/
+#1492990737
+ls
+#1492990752
+unzip -q gtv-4.0-aosp-jb-mr1-rc4-make4.0.zip 
+#1492990926
+ls
+#1492990927
+cd gtv-4.0-aosp-jb-mr1-rc4/
+#1492990927
+ls
+#1492990930
+cd build/core/
+#1492990931
+vi main.mk 
+#1492990945
+cd ..
+#1492990945
+cd ..
+#1492990946
+ls
+#1492990948
+cd ..
+#1492990948
+ls
+#1492990966
+tar czf gtv-4.0-aosp-jb-mr1-rc4-make4.0.tar.gz gtv-4.0-aosp-jb-mr1-rc4
+#1493006426
+os
+#1493006434
+go lg
+#1493006436
+vi lge-stbapp/config.mk 
+#1493006549
+go out
+#1493006550
+ls
+#1493006552
+cd eMMCimg/
+#1493006552
+ls
+#1493006553
+cd ..
+#1493006553
+ls
+#1493006558
+mv eMMCimg eMMCimg_A1
+#1493006565
+cp -rf eMMCimg_A1 ~/trans
+#1493009125
+go lg
+#1493009126
+svnst
+#1493009128
+svndiff
+#1493009232
+svnst
+#1493009237
+svndiff
+#1493009246
+svn ci lge-stbapp/
+#1493011272
+gawk
+#1493027244
+svnst
+#1493027251
+svndiff tvg2a.mk 
+#1493027256
+os
+#1493027260
+go lg
+#1493027260
+svnst
+#1493027266
+svndiff tvg2a.mk 
+#1493027269
+os
+#1493027272
+go lg
+#1493027273
+svndiff tvg2a.mk 
+#1493074859
+su - hyunkyu75.kang 
+#1493080945
+cd /share/
+#1493080946
+ls
+#1493080951
+cp tvg2a-ota-userdebug-20170425_V.03.11.0089.zip ~/
+#1493080954
+cd
+#1493080956
+ll
+#1493080960
+mv tvg2a-ota-userdebug-20170425_V.03.11.0089.zip trans/
+#1493086005
+os
+#1493086010
+cd ..
+#1493086010
+ls
+#1493086016
+mv m-tv-release-sprint-K17-1-DVT-user m-tv-release-sprint-K17-1-DVT-userdebug
+#1493086017
+os
+#1493086023
+cd ..
+#1493086023
+ls
+#1493086028
+rm -rf m-tv-release-sprint.remmc.2017.04.11 &
+#1493086034
+os
+#1493092990
+os
+#1493092995
+ls
+#1493092997
+go out
+#1493092999
+ls
+#1493093006
+rm -rf woofer2-*
+#1493093007
+ls
+#1493093013
+cd eMMCimg/
+#1493093013
+ls
+#1493093015
+cd ..
+#1493093015
+ls
+#1493093026
+cd ..
+#1493093027
+cd ..
+#1493093027
+ls
+#1493093028
+cd ..
+#1493093029
+cd ..
+#1493093030
+ls
+#1493093032
+cd device/lge/
+#1493093033
+ls
+#1493093034
+cd ..
+#1493093035
+cd ..
+#1493112777
+os
+#1493112800
+cd ..
+#1493112802
+cd ..
+#1493112806
+cd tvg2a/
+#1493112806
+ls
+#1493112810
+svn co http://var.lge.com/media/svn/SmartBox/trunk/S60UPA/main/misc/busybox-1.21.0 -q
+#1493112814
+os
+#1493112816
+ls
+#1493112819
+make
+#1493112917
+make
+#1493112947
+make
+#1493112982
+ls
+#1493112986
+ls -al
+#1493112988
+rm busybox
+#1493112989
+make
+#1493112994
+ls
+#1493113011
+make menuconfig
+#1493113019
+make defconfig
+#1493113030
+svn revert .config
+#1493113039
+svndiff .config
+#1493113044
+make
+#1493113093
+make
+#1493113174
+find . -name pw_encrypt.c
+#1493113201
+svndiff .config
+#1493113206
+make
+#1493113261
+ls
+#1493113265
+cp busybox ~/trans
+#1493113621
+svndiff .config
+#1493113625
+make
+#1493113640
+make 
+#1493113681
+svndiff .config
+#1493113713
+make
+#1493114020
+ls
+#1493114025
+cp busybox ~/trans
+#1493114193
+make
+#1493114203
+cp busybox ~/trans
+#1493114260
+make
+#1493114271
+make
+#1493114280
+cp busybox ~/trans
+#1493114349
+make;cp busybox ~/trans
+#1493114486
+make;cp busybox ~/trans
+#1493114557
+make;cp busybox ~/trans
+#1493114730
+make;cp busybox ~/trans
+#1493114775
+make;cp busybox ~/trans
+#1493114889
+make;cp busybox ~/trans
+#1493115292
+make;cp busybox ~/trans
+#1493181340
+cd networking/
+#1493181340
+ls
+#1493181351
+cd ..
+#1493181351
+ls
+#1493181353
+csd
+#1493181370
+cd sys
+#1493181372
+cd sysroot/
+#1493181373
+ls
+#1493181375
+cd usr
+#1493181375
+ls
+#1493181376
+cd ..
+#1493181377
+cd ..
+#1493181378
+ls
+#1493202493
+ history -w '/home/hyowon25.kim/.tmux/resurrect/bash_history-0:1.5'
+#1497663580
+ history -w '/home/hyowon25.kim/.tmux/resurrect/bash_history-0:1.5'

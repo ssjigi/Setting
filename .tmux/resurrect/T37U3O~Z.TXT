@@ -1,0 +1,10 @@
+pane	0	1	:bash	1	:*	1	:/home/hyowon25.kim/work/tvG2/android-tv-teedev/vendor/lg/tvg2	0	bash	:
+pane	0	1	:bash	1	:*	2	:/home/hyowon25.kim/work/tvG2/android-tv-teedev/out/target/product/tvg2	1	bash	:
+pane	0	2	:bash	0	:-	1	:/home/hyowon25.kim	1	bash	:
+pane	0	2	:bash	0	:-	2	:/home/hyowon25.kim	0	bash	:
+pane	0	3	:bash	0	: 	1	:/home/hyowon25.kim	1	bash	:
+pane	0	3	:bash	0	: 	2	:/home/hyowon25.kim	0	bash	:
+window	0	1	1	:*	4943,238x67,0,0{117x67,0,0,2,120x67,118,0,3}
+window	0	2	0	:-	0ebe,238x67,0,0{119x67,0,0,4,118x67,120,0,5}
+window	0	3	0	: 	0ec1,238x67,0,0{119x67,0,0,6,118x67,120,0,7}
+state	0	0

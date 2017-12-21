@@ -1,0 +1,12 @@
+pane	0	1	:bash	1	:*	1	:/home/hyowon25.kim/work/tvG2/android-tv-teedev	0	bash	:
+pane	0	1	:bash	1	:*	2	:/home/hyowon25.kim/work/tvG2/android-tv-teedev/out/target/product/tvg2	1	bash	:
+pane	0	2	:bash	0	:-	1	:/home/hyowon25.kim/work/tvG2/zebra (deleted)	0	bash	:
+pane	0	2	:bash	0	:-	2	:/home/hyowon25.kim/work/tvG2/net-snmp-5.3.1	1	bash	:
+pane	0	2	:bash	0	:-	3	:/home/hyowon25.kim/work/tvG1	0	bash	:
+pane	0	2	:bash	0	:-	4	:/home/hyowon25.kim/work/tvG2/net-snmp-5.3.1	0	bash	:
+pane	0	3	:bash	0	: 	1	:/home/hyowon25.kim/work/tvG2/net-snmp-5.3.1	1	bash	:
+pane	0	3	:bash	0	: 	2	:/home/hyowon25.kim/work/tvG2/net-snmp-5.3.1	0	cscope	:cscope -d
+window	0	1	1	:*	7c6c,234x65,0,0{116x65,0,0,0,117x65,117,0,15}
+window	0	2	0	:-	edb3,234x65,0,0{117x65,0,0[117x32,0,0,13,117x32,0,33,16],116x65,118,0[116x32,118,0,14,116x32,118,33,17]}
+window	0	3	0	: 	a481,234x65,0,0{117x65,0,0,20,116x65,118,0,21}
+state	0	

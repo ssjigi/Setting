@@ -1,0 +1,14 @@
+pane	0	1	:bash	0	:-	1	:/home/hyowon25.kim/work/tvg2a/m-tv-release-sprint-K17-1-DVT-userdebug/out/target/product/tvg2a	0	bash	:
+pane	0	1	:bash	0	:-	2	:/home/hyowon25.kim/work/tvg2a/busybox-1.21.0	0	bash	:/bin/bash /home/hyowon25.kim/local/bin/cscope_create_file
+pane	0	1	:bash	0	:-	3	:/home/hyowon25.kim	0	vim	:vim .vimrc
+pane	0	1	:bash	0	:-	4	:/home/hyowon25.kim/work/tvg2a/busybox-1.21.0	0	vim	:vim .config
+pane	0	1	:bash	0	:-	5	:/home/hyowon25.kim/work/tvg2a/busybox-1.21.0	1	bash	:
+pane	0	1	:bash	0	:-	6	:/home/hyowon25.kim/FOR_BUILD	0	bash	:
+pane	0	2	:bash	1	:*	1	:/home/hyowon25.kim/work/tvg2a/m-tv-release-sprint-K17-1-DVT-userdebug/vendor/marvell-sdk/linux	1	bash	:
+pane	0	2	:bash	1	:*	2	:/home/hyowon25.kim/work/tvG1/gtv-4.0-aosp-jb-mr1-rc4-G16-4-userdebug/vendor/lg/smartbox/overlays/lg_jb_overlays/build/core	0	bash	:
+pane	0	2	:bash	1	:*	3	:/home/hyowon25.kim/work/tvG1/gtv-4.0-aosp-jb-mr1-rc4-G16-4-userdebug/out/target/product/smartbox	0	bash	:
+pane	0	2	:bash	1	:*	4	:/home/hyowon25.kim/work/tvG1/gtv-4.0-aosp-jb-mr1-rc4-G16-4/build/core	0	bash	:
+pane	0	2	:bash	1	:*	5	:/home/hyowon25.kim/work/tvg2a/m-tv-release-sprint-K17-1-DVT-userdebug/build/core	0	bash	:
+window	0	1	0	:-	0152,421x91,0,0[421x45,0,0{139x45,0,0,0,140x45,140,0,3,140x45,281,0,4},421x46,0,46{139x46,0,46,5,140x46,140,46,1,140x46,281,46,2}]
+window	0	2	1	:*	19ea,419x91,0,0[421x45,0,0,10,421x46,0,46{139x46,0,46,11,139x46,140,46,7,141x46,280,46,8}]
+state	0	

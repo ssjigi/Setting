@@ -1,0 +1,8 @@
+pane	0	1	:bash	0	:-	1	:/home/hyowon25.kim	0	vim	:vim .vimrc
+pane	0	1	:bash	0	:-	2	:/home/hyowon25.kim/work/tvG2/android-tv-teedev	1	cscope	:cscope -d
+pane	0	1	:bash	0	:-	3	:/home/hyowon25.kim/.tmux/tmux-resurrect-master/strategies	0	vim	:vim vim_session.sh
+pane	0	2	:bash	1	:*	1	:/home/hyowon25.kim	1	bash	:
+pane	0	2	:bash	1	:*	2	:/home/hyowon25.kim	0	bash	:
+window	0	1	0	:-	a9e0,234x65,0,0{117x65,0,0[117x32,0,0,1,117x32,0,33,2],116x65,118,0,3}
+window	0	2	1	:*	c09f,234x65,0,0{117x65,0,0,6,116x65,118,0,7}
+state	0	0

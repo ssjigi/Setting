@@ -1,0 +1,1000 @@
+#1497079348
+vi emmc_image_list 
+#1497079352
+cd ..
+#1497079352
+ls
+#1497079356
+rm -rf eMMCimg_remmc_mes63 
+#1497079361
+mv eMMCimg eMMCimg_remmc_mes63
+#1497079362
+ls
+#1497079368
+cp -rf eMMCimg_remmc_mes63 ~/trans
+#1497229187
+cd /share/
+#1497229188
+ls
+#1497229196
+cd hyowon25.kim/
+#1497229196
+ls
+#1497229211
+ls
+#1497229215
+rm tvg2a-ota-userdebug-20170524_V.09.11.0097.zip
+#1497229217
+ls -al
+#1497229218
+ll
+#1497229225
+mkdir remote-s
+#1497229229
+mv tvg2a-ota-userdebug-20170610_V.07.11.0101.zip remote-s/
+#1497229229
+ls
+#1497229233
+ls -al
+#1497229236
+cd remote-s/
+#1497229237
+ls
+#1497255886
+os
+#1497255889
+go out
+#1497255890
+ls
+#1497255891
+ll
+#1497307392
+tmad
+#1497394012
+tmad
+#1497398469
+exit
+#1497402563
+tmad
+#1497480627
+tmad
+#1497581104
+cd SVN_REPO/B17_1_RS/
+#1497581105
+ls
+#1497581106
+svn up
+#1497582660
+cd ..
+#1497582661
+cd B17_2/
+#1497582663
+svn up
+#1497582720
+cd woofer2
+#1497582720
+ls
+#1497582723
+cd factory/
+#1497582724
+ls
+#1497582725
+svn up
+#1497582729
+svn cleanup
+#1497582731
+cd ..
+#1497582734
+rm -rf factory/
+#1497582735
+svn up
+#1497582742
+cd ..
+#1497582743
+svn up
+#1497513156
+tmad
+#1497588669
+clear
+#1497588857
+tmad
+#1497496708
+df
+#1497496710
+os
+#1497497055
+cd
+#1497497057
+cd FOR_BUILD/
+#1497497057
+s
+#1497497058
+ls
+#1497497060
+cd ..
+#1497497061
+cd SMT/
+#1497497062
+ls
+#1497497063
+cd factory_data/
+#1497497064
+ls
+#1497497065
+ls -al
+#1497510070
+os
+#1497510076
+cd m-tv-release-sprint/device/lge/tvg2a
+#1497510076
+ls
+#1497510078
+cd overlays/
+#1497510079
+ls
+#1497510080
+cd android_overlays/
+#1497510085
+cd vendor/marvell-sdk/MV88DE3100_SDK/MV88DE3100_Tools/
+#1497510085
+ls
+#1497510087
+cd bsp/
+#1497510088
+ls
+#1497510096
+find . -name *process.cpp
+#1497510099
+find . -name *process.c
+#1497510105
+vi ./bootloader/source/processes/gtv_mrvl_process.c
+#1497511438
+os
+#1497511583
+os
+#1497511592
+vi build/tools/buildinfo.sh 
+#1497512135
+vi build/tools/buildinfo.sh 
+#1497569091
+date
+#1497581657
+os
+#1497582682
+cd
+#1497582688
+cat ../using_disk 
+#1497582701
+df
+#1497592340
+` ` 
+#1497592340
+exit
+#1497511867
+date +%m%d%H%M
+#1497496686
+os
+#1497496698
+cd ..
+#1497496699
+ls
+#1497496704
+rm -rf m-tv-release-sprint-B17-2
+#1497496773
+bg
+#1497496774
+os
+#1497496780
+cd device/lge/
+#1497496780
+ls
+#1497496786
+mkdir tvg2a-kernel
+#1497496798
+svn co -q http://var.lge.com/media/svn/SmartBox/trunk/S60UPA/branches/K17_1/tvg2a
+#1497502054
+os
+#1497502056
+go lg
+#1497502059
+cd prebuilt/lg/etc/
+#1497502060
+ls -al
+#1497502062
+cat .fwversion 
+#1497502064
+rm .fwversion 
+#1497502259
+go top
+#1497502272
+vi build/tools/buildinfo.sh 
+#1497504367
+cd build/core/
+#1497504368
+vi Makefile 
+#1497511391
+vi Makefile 
+#1497511568
+grep -rn "ro.build.description" *
+#1497511570
+cd ..
+#1497511572
+grep -rn "ro.build.description" *
+#1497511625
+ls
+#1497511635
+grep -rn BUILD_FINGERPRINT *
+#1497511649
+vi core/Makefile 
+#1497511773
+go lgg
+#1497511774
+go lg
+#1497511777
+csd
+#1497520323
+cd
+#1497520324
+cd trans
+#1497520325
+ls
+#1497520333
+zip -r eMMCimg_smt_0113.zip eMMCimg_smt_0113
+#1497520434
+zip -r eMMCimg_remmc_0113.zip eMMCimg_remmc_0113
+#1497569025
+os
+#1497569031
+go bsp
+#1497569037
+grep -rn "binary build time" *
+#1497569048
+vi bootloader/include/date.h
+#1497569055
+vi  bootloader/script/compile_date.sh
+#1497484116
+cd SVN_REPO/
+#1497484117
+ls
+#1497484120
+cd B17_1_RS/
+#1497484121
+ls
+#1497484122
+cd woofer2
+#1497484123
+svnst
+#1497484125
+cd ..
+#1497484126
+svnst
+#1497484130
+svn ci
+#1497496551
+os
+#1497496558
+go lg
+#1497496559
+svnst
+#1497496587
+svndiff overlays/android_overlays/vendor/marvell-sdk/MV88DE3100_SDK/MV88DE3100_Tools/bsp/bootloader/source/processes/gtv_mrvl_process.c
+#1497507373
+ls
+#1497507375
+os
+#1497507378
+go lg
+#1497507378
+ls
+#1497507408
+grep -rn "LGU_2ND_UHD_RCU.kl" *
+#1497510026
+os
+#1497510035
+ls
+#1497510037
+cd m-tv-release-sprint/
+#1497510039
+cd device/lge/
+#1497510045
+mkdir tvg2a-kernel
+#1497510061
+svn co -q http://var.lge.com/media/svn/SmartBox/trunk/S60UPA/branches/K17_1/tvg2a
+#1497510121
+ls
+#1497510125
+cd tvg2a
+#1497510126
+ls
+#1497510127
+svnst
+#1497510129
+svndiff
+#1497510153
+vi tvg2a.mk 
+#1497510183
+vi tvg2a.mk 
+#1497510269
+os
+#1497510272
+go lg
+#1497510272
+svnst
+#1497511331
+df
+#1497511332
+os
+#1497511942
+os
+#1497511944
+go lg
+#1497511946
+vi tvg2a.mk 
+#1497511960
+svnst
+#1497511967
+vi tvg2a.mk 
+#1497511989
+svnst
+#1497511992
+svndiff
+#1497511998
+vi tvg2a.mk 
+#1497512036
+cd
+#1497512038
+cd local/bin/
+#1497512041
+vi smtbuild.sh 
+#1497512060
+os
+#1497512063
+go lg
+#1497512064
+svnst
+#1497512069
+svndiff tvg2a.mk 
+#1497512093
+svndiff tvg2a.mk 
+#1497512127
+svndiff tvg2a.mk 
+#1497512131
+svnst
+#1497517294
+os
+#1497517297
+go out
+#1497517297
+ls
+#1497520388
+ls
+#1497520392
+cd eMMCimg/
+#1497520392
+ls
+#1497520400
+cp -rf ~/SMT/factory_data/* .
+#1497520401
+ls
+#1497520402
+cd ..
+#1497520403
+ls
+#1497520409
+mv eMMCimg eMMCimg_remmc_0113
+#1497520414
+cp -rf eMMCimg_remmc_0113 ~/trans
+#1497568914
+ls
+#1497576961
+os
+#1497576975
+os
+#1497576977
+go lg
+#1497576978
+svn info
+#1497576982
+go top
+#1497576983
+cd ..
+#1497576984
+ls
+#1497576993
+m-tv-release-sprint.remmc.2017.06.15 m-tv-release-sprint.remmc.2017.06.15-B17-1
+#1497576994
+os
+#1497577007
+mv m-tv-release-sprint.remmc.2017.06.15 m-tv-release-sprint.remmc.2017.06.15-B17-1
+#1497577008
+os
+#1497581084
+cd
+#1497581085
+ls
+#1497581089
+cd SVN_REPO/
+#1497581089
+ls
+#1497581091
+svn up
+#1497581095
+cd B17_2/
+#1497581096
+svn up
+#1497581219
+svn info
+#1497581224
+cdc ..
+#1497581227
+cd ..
+#1497581232
+rm -rf B17_2/
+#1497581252
+svn co -q http://var.lge.com/media/svn/SmartBox/trunk/S60UPA/branches/B17_2
+#1497581671
+ls
+#1497581673
+cd B17_1_RS/
+#1497581673
+ls
+#1497581677
+cd tvg2a
+#1497581730
+cd ..
+#1497581731
+cd ..
+#1497581733
+cd B17_2/
+#1497581734
+cd fa
+#1497581735
+cd tvg2a
+#1497581737
+cd factory/
+#1497581738
+svn info
+#1497581783
+cd ..
+#1497581784
+cd ..
+#1497581784
+cd ..
+#1497581786
+cd B17_1_RS/
+#1497581788
+cd tvg2a
+#1497581794
+svn delete factory/
+#1497581797
+svn ci
+#1497581854
+cd ../woofer2
+#1497581855
+ls
+#1497581859
+svn delete factory/
+#1497581862
+svn ci
+#1497581885
+cd ..
+#1497581886
+svn up
+#1497581935
+cd tvg2a
+#1497581937
+cd factory/
+#1497581938
+svn info
+#1497582141
+cd ..
+#1497582147
+svn delete LgBtManager/
+#1497582150
+svn ci
+#1497582656
+cd ..
+#1497582657
+svn up
+#1497483934
+cd SVN_REPO/
+#1497483935
+ls
+#1497483938
+cd B17_2/
+#1497483939
+cd woofer2
+#1497483940
+svnst
+#1497483949
+svn ci
+#1497509989
+os
+#1497510001
+cd ..
+#1497510003
+mbuild_new.sh 
+#1497510534
+env
+#1497510538
+os
+#1497510543
+build.sh
+#1497593641
+`
+#1497483462
+cd SVN_REPO/
+#1497483463
+ls
+#1497483466
+cd B17_2/
+#1497483467
+ls
+#1497483468
+cd ..
+#1497483469
+ls
+#1497483474
+ls
+#1497496677
+os
+#1497496679
+cd ..
+#1497496680
+ls
+#1497496726
+mbuild_new.sh 
+#1497496755
+ls
+#1497496765
+pvtarx /home/sdk/marshmallow/m-tv-release-sprint-3-20161121.tgz 
+#1497496766
+pvtarx /home/sdk/marshmallow/m-tv-release-sprint-3-20161121.tgz .
+#1497497131
+ls
+#1497497148
+mv m-tv-release-sprint m-tv-release-sprint-smt-user-B17-1
+#1497497183
+os
+#1497497185
+go lg
+#1497497185
+csr
+#1497497197
+csd
+#1497502002
+vi tvg2a.mk 
+#1497502010
+svnst
+#1497502012
+vi tvg2a.mk 
+#1497502085
+csd
+#1497502343
+svnst
+#1497502345
+svndiff overlays/
+#1497504345
+svnst
+#1497509769
+`
+#1497509771
+go out
+#1497509772
+ls
+#1497509781
+grep -rn "date" *
+#1497509917
+grep -rn "ro.build.date" *
+#1497509929
+find . -name build.prop
+#1497509940
+find . -name build.prop | xargs cat | grep date
+#1497509953
+find . -name default.prop | xargs cat | grep date
+#1497509961
+ls
+#1497509962
+cd eMMCimg/
+#1497509963
+ls
+#1497509965
+cd ..
+#1497509965
+ls
+#1497509983
+mv eMMCimg eMMCimg_smt_0113
+#1497509985
+ls
+#1497511351
+vi root/default.prop 
+#1497511364
+vi root/default.prop 
+#1497511372
+vi system/build.prop 
+#1497511534
+find . -name build.prop
+#1497511546
+vi ./obj/ETC/system_build_prop_intermediates/build.prop
+#1497512147
+os
+#1497512150
+go out
+#1497512151
+ls
+#1497514030
+ls
+#1497514032
+cd system/
+#1497514033
+ls
+#1497514035
+cd ..
+#1497514038
+cd obj/
+#1497514039
+ls
+#1497514041
+cd ..
+#1497514048
+find . -name default.prop
+#1497514055
+find . -name build.prop
+#1497514061
+vi ./obj/ETC/system_build_prop_intermediates/build.prop
+#1497517305
+go out
+#1497517305
+ls
+#1497517308
+vi root/default.prop 
+#1497520279
+vi root/default.prop 
+#1497520291
+cd eMMCimg/
+#1497520292
+ls
+#1497520294
+cd ..
+#1497520294
+ls
+#1497520299
+mv eMMCimg eMMCimg_smt_0113
+#1497520305
+cp -rf eMMCimg_smt_0113 ~/trans
+#1497483418
+ls
+#1497483422
+rm -rf GPKI/
+#1497483425
+rm -rf NPKI/
+#1497483426
+ls
+#1497483429
+cd work/
+#1497483430
+ls
+#1497483433
+cd
+#1497483433
+ls
+#1497483437
+mkdir SVN_REPO
+#1497483439
+cd SVN_REPO/
+#1497483439
+ls
+#1497483452
+svn co -q http://var.lge.com/media/svn/SmartBox/trunk/S60UPA/branches/B17_2 &
+#1497483472
+svn co -q http://var.lge.com/media/svn/SmartBox/trunk/S60UPA/branches/B17_1_RS &
+#1497496567
+os
+#1497496571
+os
+#1497496578
+cd ..
+#1497496578
+ls
+#1497496598
+ls
+#1497496607
+rm -rf *
+#1497497151
+os
+#1497497156
+smtbuild.sh 
+#1497504352
+smtbuild.sh 
+#1497512076
+smtbuild.sh 
+#1497423365
+svn copy http://var.lge.com/media/svn/SmartBox/trunk/S60UPA/branches/K17_1 http://var.lge.com/media/svn/SmartBox/trunk/S60UPA/branches/B17_1_RS
+#1497423647
+cd test/
+#1497423647
+ls
+#1497423648
+cd tvg2a/
+#1497423648
+ls
+#1497423650
+cd LgBtManager/
+#1497423650
+ls
+#1497423653
+cd res/raw/
+#1497423654
+ls
+#1497424560
+cd ..
+#1497424561
+cd ..
+#1497424562
+c d..
+#1497424563
+c d..
+#1497424564
+cd ..
+#1497424565
+cd ..
+#1497424566
+cd woo
+#1497424568
+ls
+#1497424569
+cd woofer2/
+#1497424570
+ls
+#1497424571
+cd LgBtManager/
+#1497424575
+cd res/raw/
+#1497424575
+ls
+#1497424576
+svn st
+#1497424583
+svn add app_2nd_uhd_rcu_rs.bin patch_2nd_uhd_rcu_rs.bin
+#1497424585
+cd ..
+#1497424585
+cd ..
+#1497424586
+cd ..
+#1497424587
+svnst
+#1497424628
+svn info
+#1497424632
+svn ci
+#1497424685
+cd ..
+#1497424691
+svn copy http://var.lge.com/media/svn/SmartBox/trunk/S60UPA/branches/B17_1_RS http://var.lge.com/media/svn/SmartBox/trunk/S60UPA/branches/B17_2
+#1497432854
+os
+#1497432856
+go lg
+#1497432857
+ls
+#1497432915
+svn up
+#1497339446
+os
+#1497339448
+go out
+#1497339448
+ls
+#1497339450
+vi root/default.prop 
+#1497339456
+vi system/
+#1497339459
+cd system/
+#1497339459
+ls
+#1497339462
+cd lib/
+#1497339462
+ls
+#1497341209
+go out
+#1497341209
+ls
+#1497341212
+ls -al
+#1497341285
+ls -al
+#1497341286
+ls -al
+#1497341288
+ls -al
+#1497341288
+ls -al
+#1497341308
+ls -al
+#1497341309
+ls -al
+#1497341331
+ls
+#1497341338
+mv tvg2a-ota-userdebug-20170613_V.07.11.0111.zip tvg2a-ota-userdebug-20170613_V.07.11.0111-rs.zip
+#1497341339
+ls
+#1497341345
+cp tvg2a-ota-userdebug-20170613_V.07.11.0111-rs.zip ~/trans
+#1497402565
+os
+#1497402568
+go lg
+#1497402570
+svn info
+#1497402572
+svn up
+#1497408641
+w
+#1497408676
+os
+#1497427989
+os
+#1497427994
+cd device/lge/
+#1497427995
+ls
+#1497427998
+mkdir woofer2-kernel
+#1497427999
+ls
+#1497428015
+svn co -q http://var.lge.com/media/svn/SmartBox/trunk/S60UPA/branches/B17_2/woofer2
+#1497428232
+ls
+#1497428236
+go top
+#1497428237
+ls
+#1497428239
+go lg
+#1497428243
+cd ..
+#1497428243
+ls
+#1497428244
+ll
+#1497428392
+ls
+#1497428399
+mv m-tv-release-sprint-remotesasdfdsf
+#1497428407
+mv m-tv-release-sprint ../woofer2/
+#1497432834
+os
+#1497432837
+go lg
+#1497432839
+vi woofer2.mk 
+#1497434240
+os
+#1497434251
+go lg
+#1497434254
+svn info
+#1497434269
+svn switch http://var.lge.com/media/svn/SmartBox/trunk/S60UPA/branches/B17_1_RS/tvg2a
+#1497434280
+svn info
+#1497434282
+svnst
+#1497434285
+go top
+#1497434287
+cd ..
+#1497434287
+ls
+#1497434300
+mv m-tv-release-sprint-remotesolution m-tv-release-sprint-B17-1-RS
+#1497434301
+os
+#1497434318
+go lg
+#1497434320
+go top
+#1497434337
+build.sh 06150200 userdebug
+#1497480733
+go out
+#1497480734
+ls
+#1497481971
+go lg
+#1497482037
+csr
+#1497482054
+csd
+#1497482073
+csd
+#1497483249
+go stb
+#1497483253
+cd libstbapp/
+#1497483254
+ud
+#1497483264
+mm
+#1497483272
+svnst
+#1497483274
+svndiff
+#1497483279
+svn ci
+#1497593695
+os
+#1497593697
+go lg
+#1497593698
+csd
+#1497593700
+csr
+#1497594793
+csd
+#1497595440
+top
+#1497595457
+busybox top -b | grep make
+#1497592319
+tmad
+#1497595428
+tmux ls
+#1497595430
+tmad
+#1497663405
+exit
+#1497663473
+exit
+#1497663580
+ history -w '/home/hyowon25.kim/.tmux/resurrect/bash_history-0:3.4'
+#1497663617
+ls
+#1497663619
+cd .tmux/
+#1497663620
+ls
+#1497663622
+cd tmux-resurrect-master/
+#1497663623
+ls
+#1497663629
+cd save_command_strategies/
+#1497663629
+ls
+#1497663631
+cd ..
+#1497663631
+ls
+#1497663633
+cd ..
+#1497663633
+ls
+#1497663637
+cd resurrect/
+#1497663637
+ls
+#1497663639
+ll
+#1497663643
+cd pane_contents/
+#1497663643
+ls
+#1497663645
+ls -al
+#1497663647
+cd ..
+#1497663647
+ls
+#1497663650
+ls -al
+#1497663660
+vi last
+#1497663783
+ history -w '/home/hyowon25.kim/.tmux/resurrect/bash_history-0:3.4'
