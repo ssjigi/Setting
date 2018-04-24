@@ -1,0 +1,14 @@
+[user]
+	email = ryan.oh@technicolor.com
+	name = ryan.oh
+[color]
+	ui = auto
+[diff]
+    tool = vimdiff
+[core]
+	filemode = false
+	autocrlf = input
+[alias]
+    logl = log --all --graph --pretty=format:' %Cgreen(%ad)%Creset %Cred%h%Creset %C(yellow)%d%Creset %s  %C(bold blue)<%an>%Creset' --abbrev-commit
+[log]
+    date=format:%Y-%m-%d %H:%M:%S
