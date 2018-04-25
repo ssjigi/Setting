@@ -34,8 +34,8 @@ nnoremap <C-l> <C-w>l
 
 nnoremap <C-F> :NERDTreeFind<CR>
 nnoremap <F5> :NERDTreeToggle<CR>
-autocmd vimenter * NERDTreeFind | wincmd p	"vi 실행 시, NERDTree 실행, vi 에 cursor 위치(go to previous window)
-autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif	"vi 종료 시, NERTTree도 종료
+"autocmd vimenter * NERDTreeFind | wincmd p	"vi 실행 시, NERDTree 실행, vi 에 cursor 위치(go to previous window)
+"autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif	"vi 종료 시, NERTTree도 종료
 
 "========== syntastic(plugin) ==========
 "set statusline+=%#warningmsg#
@@ -85,7 +85,7 @@ map ,w :bw<CR>
 
 "===== ctags =====
 "set tags=$CTAGS_PATH/tags
-set tags=/home/ryan.oh/workspace/bg4ct-m/tags
+set tags=/home/ryan.oh/workspace/bg4ct-o/tags
 
 if version >= 500
 func! Sts()
@@ -106,10 +106,14 @@ set updatetime=500	"vim의 updatetime(tagbar 빠른 autoscroll 위해)
 nnoremap <F6> :TagbarToggle<CR>
 "let g:easytags_on_cursorhold
 let g:easytags_autorecurse = 1
-autocmd FileType c,cpp,h,java nested :call tagbar#autoopen()	"vi 실행 시, tagbar 실행 
+"autocmd FileType c,cpp,h,java nested :call tagbar#autoopen()	"vi 실행 시, tagbar 실행 
 
 "========== cscope ==========
 set csprg=/usr/bin/cscope
+if !empty($PRODUCT)
+    silent cs add ~/cscope_files/cscope.out.$PRODUCT
+    set csverb
+endif
 
 "==================== Vundle ====================
 
@@ -134,6 +138,7 @@ call vundle#begin()
     Plugin 'kien/ctrlp.vim'
 	Plugin 'tomasr/molokai'
 	Plugin 'majutsushi/tagbar'
+    Plugin 'junegunn/fzf'
     " All of your Plugins must be added before the following line
     call vundle#end()            " required
     filetype plugin indent on    " required

@@ -117,11 +117,12 @@ alias mvv='vi ~/.vimrc'
 alias mvb='vi ~/.bashrc'
 
 alias mf="find . -name"
-alias mg='grep -r'
+alias mg='grep -Er' #-E : use Extended regular expression
 
 export SVN_EDITOR=vim
 export CSCOPE_EDITOR=vim
 alias cs='cscope -d'
+alias csd='cscope -d -f ~/cscope_files/cscope.out.$PRODUCT'
 alias cs_file='cscope_create_file'
 alias cs_top='cscope_create_file_top'
 alias cs_bt='cscope_create_file_bt'
@@ -129,6 +130,13 @@ alias cs_bt='cscope_create_file_bt'
 alias ll='ls -alF'
 alias la='ls -A'
 alias l='ls -CF'
+
+#========= repo&git ===========
+alias gitk='gitk --all'
+alias rupdate='repo forall -c git remote update'
+alias rstash='repo forall -c git stash'
+alias rpop='repo forall -c git stash pop'
+alias rsync='rstash;repo sync;rpop;'
 
 #========== BUILD ==========
 export TOOLCHAINS=/opt/marvell-bg4ct-toolchain/gcc-linaro-5.3-2016.02-x86_64_aarch64-linux-gnu/bin:/opt/marvell-bg4ct-toolchain/gcc-linaro-5.3-2016.02-x86_64_aarch64-elf/bin:/opt/toolchains/armv5-marvell-eabi-softfp/bin:/opt/toolchains/armv5-marvell-linux-gnueabi-softfp/bin
@@ -138,5 +146,9 @@ export TOOLCHAINS=/opt/marvell-bg4ct-toolchain/gcc-linaro-5.3-2016.02-x86_64_aar
 export PATH=$TOOLCHAINS:~/script:$PATH
 
 #oreo
-#export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64
-#export PATH=$JAVA_HOME/bin:$TOOLCHAINS:$PATH
+export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64
+export PATH=$JAVA_HOME/bin:$TOOLCHAINS:$PATH
+
+#ccache
+export USE_CCACHE=1
+export CCACHE_DIR=/home/ryan.oh/.ccache
